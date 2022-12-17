@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<style type="text/css">
+	*{
+		justify-content: center;
+		align-items: center;
+	}
+	body{
+		margin-top: 40px;
+		background: #03fc98;
+		display: flex;
+		overflow: hidden;
+	}
+	.reg-form{
+		height: 700px;
+		width: 500px;
+		background: #03fc98;
+		box-shadow: -5px -5px 5px #caebe1,
+					3px 3px 5px #00291b;
+		border-radius: 25px;
+	}
+	.heading{
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 50px;
+		height: 50px;
+		width: 300px;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		border-radius: 100px;
+		transition: 1s;
+	}
+	.form-input{
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+	input{
+		border:none;
+		outline: none;
+		height: 50px;
+		width: 300px;
+		background-color: #4ff7b7;
+		border-radius: 25px;
+		font-family: "Lucida Console", Courier, Monospace;
+		box-shadow:  -5px -5px 5px #55e694,
+					 3px 3px 5px #00291b;
+		text-align: center;
+	}
+	input:hover{
+		background-color: #c3ebdb;
+	}
+	::placeholder {
+		text-align: center;
+		font-family: "Times New Roman", Times, serif;
+		color: black;
+	}
+	.sub-btn{
+		outline: none;
+		border: none;
+		height: 50px;
+		width: 150px;
+		margin-left: 75px;
+		margin-right: 75px;
+		border-radius: 50px;
+		background: #2cc76f;
+		box-shadow:  -5px -5px 5px #55e694,
+					 3px 3px 5px #00291b;
+		font-family: "Lucida Console", Courier, Monospace;
+	}
+	.sub-btn:hover{
+		background: #c3f7da;
+		box-shadow: inset -5px -5px 5px #aee6c6,
+					inset 3px 3px 5px #2b4536;
+	}
+	.form-link{
+		margin-left: 220px;
+		margin-right: 220px;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+	}
+	.form-link:hover{
+		color: black;
+	}
+</style>
+<body>
+<div class="reg-form">
+	<div class="heading"><h1>Sign Up</h1></div>
+	<form action="D:/Practise/login.htm">
+		<div class="form-input">
+			<input type="text" name="username" placeholder="Username"><br><br>
+			<input type="email" name="email" placeholder="Email"><br><br>
+			<input type="mobile" name="mobile" placeholder="Mobile"><br><br>
+			<input type="password" name="password" placeholder="Password"><br><br>
+			<input type="password" name="password" placeholder="Retype-Password"><br><br>
+			<button class="sub-btn">Submit</button>
+		</div>
+		<a href="D:/Practise/login.htm" class="form-link">Sign In</a> 
+	</form>
+</div>
+</body>
+</html>
